@@ -7,6 +7,7 @@ type AuthSocket = Socket<ClientToServerEvents, ServerToClientEvents, Record<stri
 
 export const authSocketMiddleware = (
   socket: AuthSocket,
+
   next: (err?: Error) => void,
 ): void => {
   const token =
