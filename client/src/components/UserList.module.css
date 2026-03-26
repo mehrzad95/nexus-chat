@@ -1,0 +1,67 @@
+.aside {
+    width: 200px;
+    flex-shrink: 0;
+    border-left: 1px solid #1e1e2e;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.heading {
+    font-size: 11px;
+    font-weight: 600;
+    color: #5a5a7a;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: 0 0 12px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.member {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.avatar {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #1e1e2e;
+    border: 1px solid #2e2e4e;
+    color: #a0a0c0;
+    font-size: 11px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.name {
+    font-size: 13px;
+    color: #c0c0e0;
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.you {
+    color: #5a5a7a;
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #22c55e;
+    flex-shrink: 0;
+}

@@ -1,0 +1,411 @@
+.shell {
+    display: flex;
+    height: 100vh;
+    background: #0a0a0f;
+    color: #e0e0f0;
+    font-family: 'DM Sans', sans-serif;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 220px;
+    flex-shrink: 0;
+    background: #0d0d14;
+    border-right: 1px solid #1e1e2e;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0.75rem;
+    gap: 1.5rem;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 0.25rem;
+}
+
+.brandLogo {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background: #5b6af0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brandName {
+    font-size: 16px;
+    font-weight: 600;
+    color: #f0f0ff;
+    letter-spacing: -0.3px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.sectionLabel {
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: #5a5a7a;
+    margin: 0 0 6px 4px;
+}
+
+.roomBtn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 10px;
+    border: none;
+    background: transparent;
+    color: #7a7a9a;
+    font-size: 14px;
+    font-family: inherit;
+    border-radius: 7px;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    transition: all 0.12s;
+}
+
+.roomBtn:hover {
+    background: #13131a;
+    color: #c0c0e0;
+}
+
+.activeRoom {
+    background: #1a1a2e !important;
+    color: #f0f0ff !important;
+}
+
+.hash {
+    color: #5b6af0;
+    font-weight: 600;
+}
+
+.userBar {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    background: #13131a;
+}
+
+.userAvatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #5b6af0;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.userInfo {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.userName {
+    font-size: 13px;
+    font-weight: 500;
+    color: #e0e0f0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.connStatus {
+    font-size: 10px;
+    text-transform: capitalize;
+}
+
+.connected {
+    color: #22c55e;
+}
+
+.connecting {
+    color: #f59e0b;
+}
+
+.disconnected,
+.error {
+    color: #f87171;
+}
+
+.logoutBtn {
+    border: none;
+    background: transparent;
+    color: #5a5a7a;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    transition: color 0.15s;
+}
+
+.logoutBtn:hover {
+    color: #f87171;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 1.25rem;
+    height: 52px;
+    border-bottom: 1px solid #1e1e2e;
+    flex-shrink: 0;
+}
+
+.roomTitle {
+    font-size: 15px;
+    font-weight: 600;
+    color: #f0f0ff;
+    margin: 0;
+    letter-spacing: -0.2px;
+}
+
+.memberCount {
+    font-size: 12px;
+    color: #5a5a7a;
+    margin-left: auto;
+}
+
+.body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.shell {
+    display: flex;
+    height: 100vh;
+    background: #0a0a0f;
+    color: #e0e0f0;
+    font-family: 'DM Sans', sans-serif;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 220px;
+    flex-shrink: 0;
+    background: #0d0d14;
+    border-right: 1px solid #1e1e2e;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0.75rem;
+    gap: 1.5rem;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 0.25rem;
+}
+
+.brandLogo {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background: #5b6af0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brandName {
+    font-size: 16px;
+    font-weight: 600;
+    color: #f0f0ff;
+    letter-spacing: -0.3px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.sectionLabel {
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: #5a5a7a;
+    margin: 0 0 6px 4px;
+}
+
+.roomBtn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 10px;
+    border: none;
+    background: transparent;
+    color: #7a7a9a;
+    font-size: 14px;
+    font-family: inherit;
+    border-radius: 7px;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    transition: all 0.12s;
+}
+
+.roomBtn:hover {
+    background: #13131a;
+    color: #c0c0e0;
+}
+
+.activeRoom {
+    background: #1a1a2e !important;
+    color: #f0f0ff !important;
+}
+
+.hash {
+    color: #5b6af0;
+    font-weight: 600;
+}
+
+.userBar {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    background: #13131a;
+}
+
+.userAvatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #5b6af0;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.userInfo {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.userName {
+    font-size: 13px;
+    font-weight: 500;
+    color: #e0e0f0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.connStatus {
+    font-size: 10px;
+    text-transform: capitalize;
+}
+
+.connected {
+    color: #22c55e;
+}
+
+.connecting {
+    color: #f59e0b;
+}
+
+.disconnected,
+.error {
+    color: #f87171;
+}
+
+.logoutBtn {
+    border: none;
+    background: transparent;
+    color: #5a5a7a;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    transition: color 0.15s;
+}
+
+.logoutBtn:hover {
+    color: #f87171;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 1.25rem;
+    height: 52px;
+    border-bottom: 1px solid #1e1e2e;
+    flex-shrink: 0;
+}
+
+.roomTitle {
+    font-size: 15px;
+    font-weight: 600;
+    color: #f0f0ff;
+    margin: 0;
+    letter-spacing: -0.2px;
+}
+
+.memberCount {
+    font-size: 12px;
+    color: #5a5a7a;
+    margin-left: auto;
+}
+
+.body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
